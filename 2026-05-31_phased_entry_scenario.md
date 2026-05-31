@@ -30,6 +30,16 @@ Revenue starts in Stage 1 as soon as blocks arrive. Each stage adds capability w
 
 ---
 
+## Management Structure — Ambrosia Innovate
+
+The operation across all stages is managed by **Ambrosia Innovate**, the management company of the operation's founding director. All staff report directly to Ambrosia Innovate. All construction activity at each stage is under Ambrosia Innovate's jurisdiction — contractor selection, procurement, timeline management, and quality sign-off.
+
+Ambrosia Innovate charges a management fee to the operating entity for both construction and operations management. The specific fee structure is subject to negotiation and will be formalised in a management services agreement before Stage 1 spend is committed.
+
+> ⚠️ Management fee not yet included in any OpEx or P&L tables in this document. These will be updated once the fee structure is formalised.
+
+---
+
 ## Stage 1 — Fruiting Room Only
 
 ### What you build

@@ -99,6 +99,33 @@ Source: Same as Role 2.
 
 ---
 
+## 1.2 Management Structure — Ambrosia Innovate
+
+The operation is managed by **Ambrosia Innovate**, the management company of the operation's founding director. All staff (Lead Cultivation Technician, Production Workers) report directly to Ambrosia Innovate. All construction activity across Phase 0, Phase 1, and Phase 2 is under Ambrosia Innovate's jurisdiction.
+
+### Scope of Responsibility
+
+**Construction management:**
+- Contractor selection and engagement across all phases (civil, HVAC, electrical, fabrication)
+- Procurement oversight — autoclave, AC units, racking, insulation, environmental controls
+- Phase timeline management and quality sign-off before capital release
+- On-site supervision during all build activity
+
+**Operations management:**
+- Staff oversight — hiring, performance management, daily direction
+- Substrate and spawn supplier relationships
+- Customer relationships — B2B buyers, pricing, delivery logistics
+- Financial reporting to the investor
+- Expansion planning — timing of new rooms, new crop varieties, PFAL phases
+
+### Management Fee
+
+Ambrosia Innovate charges a management fee to the operating entity for both the construction and operations roles. The specific fee structure is subject to negotiation and will be formalised in a management services agreement before Phase 0 spend is committed. The management fee is an operating cost of the business and will be reflected in the P&L once agreed.
+
+> ⚠️ Management fee not yet included in the OpEx or P&L tables in this document. These will be updated once the fee structure is formalised.
+
+---
+
 ## 2. Production Process
 
 ### Station 1 — Substrate Preparation
