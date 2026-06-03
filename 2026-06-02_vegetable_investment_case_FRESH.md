@@ -24,7 +24,7 @@
 | Propagation/germination | Shared tray propagation space in Room A footprint |
 | Office block | Seed prep, tray wash/sterilisation, cold storage, packaging |
 | Harvest policy | **First-harvest only for microgreens (7–14 days), multi-harvest for leafy greens (21–28 days per cycle)** ⚠️ |
-| Total monthly output | **⚠️ TBD — requires yield verification from Thai commercial vertical farm operator** |
+| Total monthly output | **⚠️ ~1,417 kg/month** (744 kg Room A + 673 kg Room B — all yield estimates pending Thai grower validation) |
 | Staffing | 1 Lead Grower + 2 Farm Workers (3 FTE) |
 
 > ⚠️ **CRITICAL:** All production estimates are placeholders. Yield, cycle time, and channel mix must be decided by stakeholder before ANY financial projections are treated as final. See Open Action #0.
@@ -34,9 +34,9 @@
 ## 1.1 Staffing Detail
 
 ### Role 1 — Lead Grower
-**Salary: ฿25,000–30,000/month** ⚠️
+**Salary: ฿30,000/month** ⚠️
 
-Salary estimate based on vertical farming / horticulture technician benchmark. Verification pending.
+Revised up from initial ฿25,000–30,000 range. Bangkok grower avg ฿31,267/month (worldsalaries 2025); hydroponic specialist = thin talent pool. ฿35,000 upside risk if experienced candidates scarce.
 
 **Daily responsibilities:**
 - Seed selection, tray preparation, seeding density management
@@ -181,7 +181,7 @@ Seedlings moved to grow racks (Room A or B) at correct developmental stage. LED 
 
 **Baby Leafy Greens (Room B):**
 - Cycle time: 14–28 days depending on species ⚠️ Estimate — requires David + Thai grower verification
-- Growing medium: rockwool, perlite, or coir in NFT channels
+- Growing medium: hydroponic sponge inserts (net pot) ⚠️ OpEx models sponge at ฿7.50/sheet (~175/month); Station 4 previously said rockwool/perlite/coir. Medium type and replacement rate require David confirmation before ordering.
 - Nutrient solution: AB hydroponic nutrients ✅ Bangsai Agro ฿700/10L
 - Water changes: Every 7–10 days
 
@@ -261,7 +261,7 @@ LED heat = 10.9 kW + wall/people heat ~2 kW = **~13 kW sensible load**
 **Racking:**
 | Item | Qty | Unit | Total | Notes |
 |---|---:|---:|---:|---|
-| 4-tier vertical racks (Thai Advance or equiv) | 4–5 bays | ⚠️ ฿20,000 per bay | ⚠️ ฿80,000–100,000 | **QUOTE REQUIRED from Thai Advance Hydroponics or equivalent** |
+| Vertical racks (4-tier @ 65cm pitch per David spec) | 9 units | 🛒 ฿7,000 | 🛒 ฿63,000 | Phase 1 CapEx uses 6-tier SS rack 3m×1m×2.7m. ⚠️ **PITCH CONFLICT:** 2.7m ÷ 6 tiers = 45cm pitch vs 65cm minimum. Confirm with David whether 45cm works for microgreens OR find rack allowing 65cm. (Open Action 2a) |
 
 **Controls & monitoring:**
 | Item | Qty | Unit | Total | Notes |
@@ -324,7 +324,7 @@ Required quantity: 10.9 kW ÷ 0.15 kW per unit = **~73 units**
 | Parameter | Spec |
 |---|---|
 | Temperature | 18–22°C (run at 20°C) ⚠️ |
-| Humidity | 65–75% RH, with dehumidification for transpiration load ⚠️ |
+| Humidity | 65–75% RH — managed by AC coil condensation (3× units, 6.3 kW latent vs 0.9 kW transpiration load). No standalone dehumidifier. ✅ David 2026-06-02 |
 
 **Sensible heat load (LED + transpiration + conduction):**
 LED heat = 35.1 kW + plant transpiration (~5 kW latent converted) + wall heat ~2 kW = **~42 kW total load**
@@ -338,7 +338,7 @@ Divided into: **~23 kW sensible + ~19 kW latent**
 - Configuration: All 3 units active ⚠️ Requires formal quote from KYW Thailand (02-763-7000)
 - **David (2026-06-02):** 2-unit spec was undersized — 24.6 kW vs 33.4 kW sensible LED load = ~9 kW deficit. Third unit brings total to 36.9 kW with ~3.5 kW headroom. Transpiration load (~0.60 kW) is only ~1.7% of total LED input — typical for closed PFAL (Kozai et al.).
 
-**Common error (David ERR-D01):** Forgetting dehumidification for Room B transpiration load. ❌ **This room REQUIRES both AC (sensible) and dehumidifier (latent).** Do not size AC alone.
+**ERR-D01 — RESOLVED (2026-06-02):** Original design incorrectly called for a standalone dehumidifier. ✅ David confirmed: 3× PEY-SM42JA(L) provide ~6.3 kW latent capacity vs ~0.9 kW actual transpiration load — 7:1 surplus. AC coil condensation at 10–12°C (below 13.9°C dew point at 20°C/70% RH) handles all dehumidification. No standalone dehumidifier required.
 
 ---
 
@@ -359,8 +359,8 @@ Room B requires higher power: 35.1 kW ÷ 0.15 kW per unit = **~234 units**
 | PIR supply duct, 200mm Ø, ~7m | 1 | ⚠️ ฿8,000 | ⚠️ ฿8,000 | Larger duct for higher volume |
 | HEPA H14 filter (200mm) | 1 | ⚠️ ฿9,000 | ⚠️ ฿9,000 | Scaled for room volume |
 | Insulation (PIR 50mm, ~180 m²) | — | ⚠️ ฿400/m² | ⚠️ ฿72,000 | Same as Room A |
-| 5-tier vertical racks (Thai Advance equiv) | 6–7 bays | ⚠️ ฿20,000 per | ⚠️ ฿120,000–140,000 | **QUOTE REQUIRED** |
-| Dehumidifier (standalone, 20 L/hr) | 1 | ⚠️ ฿20,000 | ⚠️ ฿20,000 | Estimate — requires quote |
+| Vertical racks (5-tier @ 65cm pitch per David spec) | 11 units | 🛒 ฿7,000 | 🛒 ฿77,000 | Phase 2 CapEx uses 6-tier SS rack 3m×1m×2.7m. ⚠️ **PITCH CONFLICT:** 5 tiers × 65cm = 325cm — does NOT fit in 2.7m rack. Options: (a) find 3.5m+ SS rack, (b) use 4-tier at 65cm in 2.7m rack (less surface), (c) confirm with David whether 45cm pitch is acceptable. (Open Action 2b) |
+| Dehumidifier (standalone) | — | — | **฿0** | ✅ NOT REQUIRED — David 2026-06-02: 3× AC units provide 6.3 kW latent vs 0.9 kW transpiration. AC coil handles all dehumidification. Excluded from Phase 2 CapEx. |
 | Controllers + fans + monitoring | 1 set | ⚠️ ฿35,000 | ⚠️ ฿35,000 | Scaled control package |
 | Room partition + door + electrical | 1 job | ⚠️ ฿85,000 | ⚠️ ฿85,000 | ⚠️ Revised up from ฿44,000. Same rationale as Room A — door cost alone exceeds prior total. 3 contractor quotes required. |
 | Miscellaneous + contingency | — | — | ⚠️ ฿15,000 | 5% buffer |
@@ -431,7 +431,7 @@ Room B requires higher power: 35.1 kW ÷ 0.15 kW per unit = **~234 units**
 | **HVAC** | Mitsubishi Electric PEY-SM24JA(L) (2 units) | 2 | 🛒 ฿41,800 | 🛒 ฿83,600 |
 | | Supply duct + HEPA filter + exhaust | 1 set | ⚠️ ฿17,500 | ⚠️ ฿17,500 |
 | **LED Lighting** | Civic Agrotech RBW panels (~73 units) | 73 | ✅ ฿21,500 | ✅ ฿1,569,500 |
-| **Racking** | 6-tier SS rack 3m×1m×2.7m (9 racks × 18 m² = 162 m² surface) | 9 | 🛒 ฿7,000 | 🛒 ฿63,000 |
+| **Racking** | 6-tier SS rack 3m×1m×2.7m (9 racks × 18 m² = 162 m² surface) | 9 | 🛒 ฿7,000 | 🛒 ฿63,000 | ⚠️ **PITCH CONFLICT:** 2.7m ÷ 6 tiers = 45cm vs David's 65cm minimum. Confirm with David before ordering. (Open Action 2a) |
 | **Hydro System** | NFT channels or flood-and-drain trays + reservoir | 1 system | ⚠️ ฿80,000 | ⚠️ ฿80,000 | 🛒 Channel reference: ForFarm 6m closed channel ฿330/pc (forfarm.co). ~130 channels for Room A = ฿42,900 channels only; remainder covers reservoir, pump, piping, fittings. Quote from Hydroproplast (shopee: hydroproplast / FB: Hydroproplast99) for bulk. |
 | | Nutrient dosing system (automated) | 1 | ⚠️ ฿25,000 | ⚠️ ฿25,000 |
 | | Water filtration + chiller (if needed) | 1 | ⚠️ ฿30,000 | ⚠️ ฿30,000 |
@@ -440,7 +440,7 @@ Room B requires higher power: 35.1 kW ÷ 0.15 kW per unit = **~234 units**
 | **Other** | Room partition + sealed door | 1 | ⚠️ ฿75,000 | ⚠️ ฿75,000 |
 | | Electrical wiring + outlets + inspection | 1 job | ⚠️ ฿12,000 | ⚠️ ฿12,000 |
 | | Miscellaneous + contingency | — | — | ⚠️ ฿20,000 |
-| **Phase 1 Total (Room A)** | | | | **⚠️ ฿2,018,600** |
+| **Phase 1 Total (Room A)** | | | | **⚠️ ฿2,016,600** |
 
 ---
 
@@ -451,7 +451,7 @@ Room B requires higher power: 35.1 kW ÷ 0.15 kW per unit = **~234 units**
 | **HVAC** | Mitsubishi Electric PEY-SM42JA(L) (3 units) | 3 | 🛒 ฿64,800 | 🛒 ฿194,400 |
 | | Supply duct (200mm) + HEPA filter + exhaust | 1 set | ⚠️ ฿26,000 | ⚠️ ฿26,000 |
 | **LED Lighting** | Civic Agrotech RBW panels (~234 units) | 234 | ✅ ฿21,500 | ✅ ฿5,031,000 |
-| **Racking** | 6-tier SS rack 3m×1m×2.7m (11 racks × 18 m² = 198 m² surface) | 11 | 🛒 ฿7,000 | 🛒 ฿77,000 |
+| **Racking** | 6-tier SS rack 3m×1m×2.7m (11 racks × 18 m² = 198 m² surface) | 11 | 🛒 ฿7,000 | 🛒 ฿77,000 | ⚠️ **PITCH CONFLICT:** 5 tiers × 65cm = 325cm > 2.7m rack height. Confirm with David before ordering. (Open Action 2b) |
 | **Hydro System** | NFT channels or flood-and-drain + larger reservoir | 1 system | ⚠️ ฿120,000 | ⚠️ ฿120,000 | 🛒 ~250 channels × ฿330 = ฿82,500 channels alone; estimate likely correct once pump/reservoir/plumbing added. Quote from Hydroproplast for bulk commercial pricing. |
 | | Nutrient dosing (automated) | 1 | ⚠️ ฿35,000 | ⚠️ ฿35,000 |
 | | Water filtration + chiller | 1 | ⚠️ ฿50,000 | ⚠️ ฿50,000 |
@@ -460,7 +460,7 @@ Room B requires higher power: 35.1 kW ÷ 0.15 kW per unit = **~234 units**
 | **Other** | Room partition + sealed door | 1 | ⚠️ ฿85,000 | ⚠️ ฿85,000 |
 | | Electrical wiring + outlets | 1 job | ⚠️ ฿15,000 | ⚠️ ฿15,000 |
 | | Miscellaneous + contingency | — | — | ⚠️ ฿30,000 |
-| **Phase 2 Total (Room B)** | | | | **⚠️ ฿5,509,400** |
+| **Phase 2 Total (Room B)** | | | | **⚠️ ฿5,709,400** |
 
 ---
 
@@ -469,9 +469,9 @@ Room B requires higher power: 35.1 kW ÷ 0.15 kW per unit = **~234 units**
 | Phase | Amount |
 |---|---:|
 | Phase 0 — Site prep | ⚠️ ฿460,000 |
-| Phase 1 — Room A | ⚠️ ฿2,018,600 |
-| Phase 2 — Room B | ⚠️ ฿5,509,400 |
-| **Grand Total CapEx** | **⚠️ ฿7,988,000** |
+| Phase 1 — Room A | ⚠️ ฿2,016,600 |
+| Phase 2 — Room B | ⚠️ ฿5,709,400 |
+| **Grand Total CapEx** | **⚠️ ฿8,186,000** |
 
 > ⚠️ **This is ENTIRELY contingent on:** (1) Civic Agrotech LED pricing hold-up ✅ ฿21,500/unit (single source, needs 2 more quotes), (2) Thai Advance Hydroponics rack availability + pricing (QUOTE REQUIRED), (3) Mitsubishi Electric PEY-SM24JA(L) (Room A) and PEY-SM42JA(L)4 (Room B) — available through KYW Thailand (02-763-7000), formal quote required, (4) All other contractor estimates validated via formal quotes.
 
@@ -554,7 +554,7 @@ All production figures are PLACEHOLDERS. No financial projections are valid unti
 
 > ⚠️ **CRITICAL:** Room B varieties and pricing are RESEARCH ESTIMATES. **All must be validated with Green Codex or equivalent Thai vertical farm AND anchor B2B buyers (Open Action #2).**
 >
-> ⚠️ **WATERCRESS SENSITIVITY:** If watercress yield or price is 50% lower, Room B revenue drops to ฿253,779/month, total revenue drops to ฿527,559/month, monthly profit drops to ฿222,291, and payback extends to ~40 months. If watercress fails entirely, payback extends to ~113 months (not viable). Watercress demand and ฿650/kg Bangkok wholesale price must be confirmed with ≥2 anchor buyers before committing to Room B.
+> ⚠️ **WATERCRESS SENSITIVITY:** If watercress yield or price is 50% lower, Room B revenue drops to ฿253,779/month, total revenue drops to ฿527,559/month, monthly profit drops to ฿225,227, and payback extends to ~39 months. If watercress fails entirely, payback extends to ~109 months (not viable). Watercress demand and ฿650/kg Bangkok wholesale price must be confirmed with ≥2 anchor buyers before committing to Room B.
 >
 > ⚠️ **PRICING CHANNEL RISK (2026-06-03 research):** All revenue prices assume a **premium direct-to-chef B2B channel** — NOT commodity wholesale. Watercress retail in Bangkok: ฿65/90–120g pack = ฿541–722/kg retail (Radiance Wholefoods). The ฿650/kg B2B assumption is at the top of the retail range — achievable only through direct premium restaurant accounts (fine dining, hotel F&B). Commodity watercress and lettuce wholesale (Talaad Thai grade): ฿70–91/kg. Kale ฿500/kg and chard ฿450/kg similarly require premium positioning. **The entire revenue model collapses to ~฿100–150/kg blended if sold through commodity channels.** Buyer LOIs are not optional — they are a hard stop before Phase 0.
 
@@ -570,7 +570,7 @@ All production figures are PLACEHOLDERS. No financial projections are valid unti
 
 > ⚠️ **SCENARIO DEPENDENT:** This assumes 100% B2B wholesale channel, 100% capacity, all yields and prices as estimated. Profitability is HIGHLY SENSITIVE to yield validation and channel mix:
 > - **Pure B2B at current estimates:** ⚠️ ฿672,223/month revenue — **IF yield and watercress pricing confirmed**
-> - **Watercress fails (50% lower yield/price):** ~฿427,000/month revenue (payback ~35 months)
+> - **Watercress 50% lower yield/price:** ⚠️ ฿527,559/month revenue, ฿225,227 profit (payback ~39 months)
 > - **50/50 retail+B2B blend:** ⚠️ TBD — depends on channel mix decision
 > - **Premium/Michelin positioning:** ⚠️ TBD — requires buyer LOIs
 >
@@ -598,17 +598,17 @@ All production figures are PLACEHOLDERS. No financial projections are valid unti
 ### 7.2 Payback Analysis (ALL SCENARIOS PENDING)
 
 **Capital requirement:**
-- Phase 0 + Phase 1 + Phase 2 = ⚠️ ฿7,988,000 total CapEx
+- Phase 0 + Phase 1 + Phase 2 = ⚠️ ฿8,186,000 total CapEx
 - Add working capital buffer (2 months OpEx): ⚠️ ฿605,000
-- **Total capital requirement: ⚠️ ฿8,593,000**
+- **Total capital requirement: ⚠️ ฿8,791,000**
 
 **Payback period (simple, no discounting):**
 
 | Scenario | Monthly Profit | Payback (months) | Status |
 |---|---:|---:|---|
-| B2B — all estimates confirmed | ⚠️ ฿369,891 | ⚠️ ~23 months | ⚠️ Viable IF yields + watercress pricing validated |
-| B2B — watercress 50% lower | ⚠️ ฿225,227 | ⚠️ ~38 months | ⚠️ Marginal — requires strong watercress buyer LOIs |
-| B2B — watercress fails completely | ⚠️ ฿80,563 | ⚠️ ~107 months | ❌ Not viable without watercress |
+| B2B — all estimates confirmed | ⚠️ ฿369,891 | ⚠️ ~24 months | ⚠️ Viable IF yields + watercress pricing validated |
+| B2B — watercress 50% lower | ⚠️ ฿225,227 | ⚠️ ~39 months | ⚠️ Marginal — requires strong watercress buyer LOIs |
+| B2B — watercress fails completely | ⚠️ ฿80,563 | ⚠️ ~109 months | ❌ Not viable without watercress |
 | 50/50 retail+B2B blend | ⚠️ TBD | ⚠️ TBD | ⏳ |
 | Premium/Michelin | ⚠️ TBD | ⚠️ TBD | ⏳ |
 
@@ -627,9 +627,9 @@ All production figures are PLACEHOLDERS. No financial projections are valid unti
 
 | Phase | Month | Description | Cumulative Cash |
 |---|---|---|---:|
-| Phase 0 | 1–2 | Site prep (MEA, electrical, flooring, zoning legal) | −฿595,000 |
-| Phase 1 | 3–4 | Room A build (HVAC, LEDs, hydro, controls) | −฿2,685,000 |
-| Phase 1 | 5 | Room A commissioning + pilot harvests | −฿2,685,000 |
+| Phase 0 | 1–2 | Site prep (MEA, electrical, flooring, zoning legal) | −฿460,000 |
+| Phase 1 | 3–4 | Room A build (HVAC, LEDs, hydro, controls) | −฿2,476,600 |
+| Phase 1 | 5 | Room A commissioning + pilot harvests | −฿2,476,600 |
 | Phase 1 | 6 | Room A ramp to 50% capacity | +฿(TBD) |
 | Phase 1 | 7 | Room A ramp to 75% capacity | +฿(TBD) |
 | Phase 1–2 | 8 | Room A full + Phase 2 build begins | +฿(TBD) |
@@ -683,7 +683,7 @@ Cumulative cash position depends on:
 
 | # | Action | Owner | Deadline | Status |
 |---|---|---|---|---|
-| **0** | **DECISION: Sales channel mix + WATERCRESS VALIDATION.** Pure B2B at current estimates = ~22-month payback (⚠️ all estimates pending). BUT 43% of revenue is watercress — confirm ฿650/kg B2B price with ≥2 Bangkok buyers and confirm 1.5 kg/m²/cycle yield with Thai grower before treating revenue as real. Channel options: (A) B2B wholesale with watercress as anchor — viable IF pricing locked, (B) 50/50 retail+B2B blend, (C) Premium/Michelin focus. Variety mix and P&L adjust with channel choice. | Stakeholder | **IMMEDIATE** | ⏳ BLOCKED |
+| **0** | **DECISION: Sales channel mix + WATERCRESS VALIDATION.** Pure B2B at current estimates = ~24-month payback (⚠️ all estimates pending). BUT 43% of revenue is watercress — confirm ฿650/kg B2B price with ≥2 Bangkok buyers and confirm 1.5 kg/m²/cycle yield with Thai grower before treating revenue as real. Channel options: (A) B2B wholesale with watercress as anchor — viable IF pricing locked, (B) 50/50 retail+B2B blend, (C) Premium/Michelin focus. Variety mix and P&L adjust with channel choice. | Stakeholder | **IMMEDIATE** | ⏳ BLOCKED |
 | **3** | Thai lawyer written zoning opinion on Nong Khaem factory food production status | Ambrosia | Before Phase 0 | ⏳ |
 | **4** | MEA electrical survey + 3-phase 40A capacity confirmation + tariff lock-in eligibility | Ambrosia | Before Phase 0 | ⏳ |
 
@@ -695,8 +695,8 @@ Cumulative cash position depends on:
 |---|---|---|---|---|
 | **1a** | LED panels (RBW, ~73 units for Room A) — confirm ฿21,500/unit from Civic Agrotech + get 2 competing quotes | Civic Agrotech + Thai Advance + international | Phase 1 lock-in | ⏳ Civic listed ฿21,500 ✅; need alternatives |
 | **1b** | LED panels (RBW, ~234 units for Room B) — same as 1a, scaled | Same suppliers | Phase 2 lock-in | ⏳ |
-| **2a** | 4-tier vertical racks (Room A, 4–5 bays, ~฿20k each) | Thai Advance Hydroponics, Accent Thailand | Phase 1 lock-in | ⏳ QUOTE REQUIRED |
-| **2b** | 5-tier vertical racks (Room B, 6–7 bays) | Same as 2a | Phase 2 lock-in | ⏳ QUOTE REQUIRED |
+| **2a** | **RACKING PITCH CONFLICT — Room A.** CapEx uses 🛒 6-tier SS rack 3m×1m×2.7m at ฿7,000/unit (9 units = ฿63,000). Pitch = 45cm. David spec = 65cm minimum. Confirm with David: (a) does 45cm work for microgreens? (b) if not, find 3.25m+ rack at 4 tiers × 65cm = 260cm. Get quote before Phase 1 lock-in. | David + SS rack supplier | Phase 1 lock-in | ⏳ BLOCKED PENDING DAVID CONFIRMATION |
+| **2b** | **RACKING PITCH CONFLICT — Room B.** CapEx uses 🛒 6-tier SS rack 3m×1m×2.7m at ฿7,000/unit (11 units = ฿77,000). David spec = 5-tier at 65cm = 325cm — physically cannot fit in 2.7m rack. Options: (a) find 3.5m+ SS rack, (b) use 4-tier at 65cm (reduces surface from 198 m² to 158 m²), (c) confirm with David whether 45cm pitch works for kale/chard/watercress. Resolve before Phase 2 lock-in. | David + rack supplier | Phase 2 lock-in | ⏳ BLOCKED PENDING DAVID CONFIRMATION |
 | **3** | HVAC — Mitsubishi Electric **PEY-SM24JA(L)** (2 units for Room A, 7.1 kW each) — 🛒 ฿41,800/unit confirmed (airsupercheap.com). Confirm availability + delivery with supplier before ordering. | airsupercheap.com; KYW Thailand: 02-763-7000 | Phase 1 lock-in | ✅ Price confirmed — confirm stock |
 | **4** | HVAC — Mitsubishi Electric **PEY-SM42JA(L)** (3 units for Room B, 12.3 kW each) — 🛒 ฿64,800/unit confirmed (airsupercheap.com). David confirmed 3 units required — 2 units undersized (24.6 kW vs 33.4 kW sensible load). No standalone dehumidifier needed — 3-unit latent capacity (6.3 kW) is 7× the transpiration load (0.9 kW). | airsupercheap.com; KYW Thailand: 02-763-7000 | Phase 2 lock-in | ✅ Price confirmed; qty corrected by David |
 | **5** | Hydroponic system (NFT or flood-drain, complete kit with nutrients pump) | Thai Advance Agri Tech: advanceagritech.com; Accent Hydroponics: 02-973-1444, ctantisavee@gmail.com | Phase 1 lock-in | ⏳ QUOTE REQUIRED |
